@@ -82,7 +82,7 @@ fontSize.addEventListener("change", (e) => {
 
     // Remove "px" from the selected value and set the font size
     cellProp.fontSize = fontSize.value;
-    cell.style.fontSize = cellProp.fontSize + "px";
+    cell.style.fontSize = cellProp.fontSize;
     fontSize.value = cellProp.fontSize;
 });
 
